@@ -24,17 +24,20 @@ Project Flow
 2. Preprocess Data - Normalize & handle missing values.
 3. Train LSTM Model - Predict financial risk based on historical trends.
 4. Risk Score - Calculate risk score
+   
 2. Sentiment Analysis
 1. Collect Financial News using NewsAPI.
 2. Analyze News Sentiment using BERT.
 3. Collect Social Media Sentiment from Kaggle Twitter dataset 
 4. Analyze Tweets using VADER to determine market perception.
 5. Combine Sentiments (news + tweets) to form an overall sentiment score.
+   
 3. Legal Risk Assessment
 1. Scrape Legal Documents from company reports and regulatory filings.
 2. Apply NER (Named Entity Recognition) to extract legal risks.
 3. Categorize Risks (Compliance Issues, Lawsuits, Regulatory Violations).
-4. M&A Risk Dashboard
+   
+5. M&A Risk Dashboard
 1. Financial, Sentiment & Legal Risk Scores are aggregated.
 2. Risk Categories Assigned based on a weighted model.
 3. Visualized in Streamlit Dashboard for interactive risk assessment.
