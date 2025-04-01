@@ -45,6 +45,6 @@ Project Flow
 Features
 Financial Risk Analysis using LSTM model Sentiment Analysis from news & social media Legal Risk Extraction using NLP Comprehensive M&A Risk Score Interactive Dashboard for risk visualization
 
-Future Enhancements
-Report
-Improved Dashboard
+**Future Enhancements**
+1.Create a Report
+2.Improved Dashboard
